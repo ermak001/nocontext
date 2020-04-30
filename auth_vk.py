@@ -49,11 +49,11 @@ def save_post(post_photo):
 
 
 
-schedule.every(60).minutes.do(load_post)
+schedule.every(5).minutes.do(load_post)
 
 while True:
     schedule.run_pending()
-    time.sleep(120)
+    time.sleep(5)
 
 
 
