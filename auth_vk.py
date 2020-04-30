@@ -7,7 +7,7 @@ import random
 import index
 import settings as s
 
-session = vk_api.VkApi(login, password, scope='messages, wall, groups, photos, offline')
+session = vk_api.VkApi('89910997353', 'RedWhite88', scope='messages, wall, groups, photos, offline')
 session.auth()
 vk = session.get_api()
 
